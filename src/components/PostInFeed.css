@@ -1,0 +1,69 @@
+.feedPost {
+    max-width: 100%;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.feedPost:hover {
+    background-color: #1c2834;
+}
+
+.completePost {
+    display: inline-block;
+    justify-content: start;
+    flex-direction: column;
+    gap:10px;
+    width:89%;
+    gap:10px;
+    margin-left: 16px;
+}
+
+.interactions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    gap: 150px;
+}
+
+.interactionNums {
+    color:#3f3f3f;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 1000px;
+}
+
+.interactionNums:hover {
+    cursor:pointer;
+    background-color: #1da0f20b;
+}
+
+.prof {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+    margin-left: auto;
+}
+
+.acc {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+
+.postContent{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap:10px;
+}
+
+.postVid {
+    width: 98%;
+    border-radius: 4px;
+}
