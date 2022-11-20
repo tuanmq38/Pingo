@@ -58,7 +58,8 @@ a:-webkit-any-link {
 .logout{
   display: flex;
   justify-content: end;
-  margin-right: 100px;
+  margin-right: 150px;
+  margin-top: 250px;
   font-weight: bold;
 }
 
